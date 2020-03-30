@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 2m;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.ck_form.ck_minimal {
+    /* divider image */
+    
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 1.5em;
+    overflow: hidden;
+    color: #000000;
+    font-size: 16px;
+    border: solid 0px #000000;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    clear: both;
+    margin: 20px 0px;
+    text-align: center;
+    border: solid 0px #000000;
+    
+    }
+    
+    
+    .ck_form.ck_minimal h3.ck_form_title {
+    text-align: center;
+    margin: 0px 0px 50px;
+    font-size: 5vw;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #000000;
+    }
+    
+    .ck_form.ck_minimal h4 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: normal;
+    padding-top: 0px;
+    margin-top: 0px;
+    }
+    
+    .ck_form.ck_minimal p {
+    padding: 0px;
+    }
+    
+    .ck_form, .ck_form * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    }
+    
+    .ck_form.ck_minimal .ck_form_fields {
+    width: 100%;
+    display: inline-block;
+    padding: 0%;
+    }
+    
+    @media (min-width: 801px) {
+    .ck_form.ck_minimal .ck_form_fields {
+    padding: 5%;
+    }
+    }
+    
+    /* Form fields */
+    
+    .ck_errorArea {
+    display: none; /* temporary */
+    }
+    
+    #ck_success_msg {
+    padding: 15px 15px 15px;
+    border: solid 1px #000000;
+    background: #fff;
+    }
+    
+    .ck_form.ck_minimal input[type="text"], .ck_form.ck_minimal input[type="email"] {
+    font-size: 16px;
+    padding: 10px 8px;
+    width: 33%;
+    border: 1px solid #bbbbbb; /* stroke */
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 0px; /* border radius */
+    background-color: #fff; /* layer fill content */
+    margin-bottom: 10px;
+    height: auto;
+    float: left;
+    margin: 0px;
+    margin-right: 2%;
+    height: 42px;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    }
+    @media (max-width: 801px) {
+    .ck_form.ck_minimal input[type="text"], .ck_form.ck_minimal input[type="email"] {
+    width: 100%;
+    }
+    }
+    .ck_form input[type="text"]:focus, .ck_form input[type="email"]:focus {
+    outline: none;
+    border-color: #000000;
+    }
+    
+    .ck_form.ck_minimal .ck_subscribe_button {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    width: 100%;
+    color: #000000;
+    margin: 0px;
+    padding: 5px 0px;
+    font-size: 15px;
+    background: #ffffff;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 3px;
+    border-radius: 0px; /* border radius */
+    cursor: pointer;
+    border: 2px solid #000000; /* stroke */
+    text-shadow: none;
+    width: 30%;
+    float: left;
+    height: 42px;
+    }
+    
+    
+    .ck_form.ck_minimal .ck_guarantee {
+    color: #000000;
+    font-size: 12px;
+    text-align: center;
+    padding: 15px 0px 0px;
+    display: block;
+    clear: both;
+    }
+    .ck_form .ck_powered_by {
+    display: block;
+    color: #000000;
+    font-size: 12px;
+    }
+    
+    .ck_form .ck_powered_by:hover {
+    display: block;
+    color: #000000;
+    }
+    
+    .ck_converted_content {
+    display: none;
+    padding: 5%;
+    background: #fff;
+    }
+    
+    .ck_form.ck_minimal.width400 .ck_subscribe_button, .ck_form.ck_minimal.width400 input[type="email"] {
+    width: 100%;
+    float: none;
+    margin-top: 5px;
+    }
+    
+    .ck_slide_up, .ck_modal, .ck_slide_up .ck_minimal, .ck_modal .ck_minimal {
+    min-width: 400px;
+    }
+    
+    .page .ck_form.ck_minimal {
+    margin: 50px auto;
+    max-width: 600px;
+    }
+    
+    
+    /* v6 */
+    .ck_slide_up.ck_form_v6, .ck_modal.ck_form_v6, .ck_slide_up.ck_form_v6 .ck_minimal, .ck_modal.ck_form_v6 .ck_minimal {
+    min-width: 0 !important;
+    }
+    
+    @media all and (min-width: 801px) {
+    .ck_modal.ck_form_v6 .ck_form.ck_minimal {
+    margin-left: -300px;
+    width: 600px;
+    }
+    }
+    
+    .ck_modal.ck_form_v6 .ck_minimal .ck_subscribe_form {
+    padding-top: 20px;
+    }
+    
+    .ck_slide_up.ck_form_v6 .ck_minimal .ck_subscribe_form {
+    padding-top: 10px;
+    }
+    
+    .ck_form_v6 #ck_success_msg {
+    margin-top: 15px;
+    padding: 0px 10px;
+    }
+    
+    .ck_slide_up.ck_form_v6 .ck_minimal + .ck_close_link {
+    top: 5px;
+    }
+    .ck_slide_up.ck_form_v6 .ck_minimal h3.ck_form_title {
+    margin-top: 5px;
+    }

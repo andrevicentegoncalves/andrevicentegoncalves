@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 2m;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+  padding: 15px;
+  border: 1px solid red;
+}
+
+  /* #parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: red;
+  } */
+
+  section{
+      height: 100%;
+      background: white;
+  }
+  h1{
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      text-align: center;
+      color: navy;
+      font-size: 5em;
+      letter-spacing: 0.3em;;
+  }
+
+  h1 span{
+      opacity: 0;
+      display: inline-block;
+      animation: animate 1s linear forwards;
+  }
+
+  video{
+      width: 100%;
+      object-fit: fill;
+  }
+
+  @keyframes animate{
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+  }
+  
+    h1 span:nth-child(1){
+      animation-delay: 1s;
+    }
+    h1 span:nth-child(2){
+    animation-delay: 1.5s;
+    }
+    h1 span:nth-child(3){
+        animation-delay: 2s;
+    }
+    h1 span:nth-child(4){
+        animation-delay: 2.5s;
+    }
+    h1 span:nth-child(5){
+        animation-delay: 3s;
+    }

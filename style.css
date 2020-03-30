@@ -343,17 +343,9 @@ ul li{
 
 /* Image for Parallax Section */ 
 .paralsec {
-  background-image: url("/Users/andregoncalves/Dropbox/Dev/current-projects/myPage/resources/images/cover.jpg");
+  background-image: url("cover.jpg");
   max-width: 100%;
   height: auto;
-}
-   
-.paralsec1 {
-  background-image: url("resources/images/cover.jpg");
-}
-   
-.paralsec2 {
-  background-image: url("resources/images/cover.jpg");
 }
 
 .paral {

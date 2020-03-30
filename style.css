@@ -343,7 +343,7 @@ ul li{
 
 /* Image for Parallax Section */ 
 .paralsec {
-  background-image: url("cover.jpg");
+  background-image: url("resources/images/cover.jpg");
   max-width: 100%;
   height: auto;
 }
